@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-	char string[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	write(2, string, strlen(string));
+	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(2, str, strlen(str));
 	return (1);
 }
