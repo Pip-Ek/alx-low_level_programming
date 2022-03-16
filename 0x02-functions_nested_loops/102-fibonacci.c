@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ *main - Entry point
  *
- * Description: Prints first 50 
+ *Description: Prints first 50 
  *fibonacci numbers
  *Return: Always 0.
  */
