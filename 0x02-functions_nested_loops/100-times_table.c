@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_tiimes_table - a function that
+ *print_times_table - a function that
  *prints the n times table.
  *@n: size of the table
  */
