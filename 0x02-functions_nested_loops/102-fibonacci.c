@@ -9,7 +9,7 @@
 int main(void)
 {
 	int i;
-	int prev1, prev2, next;
+	long int prev1, prev2, next;
 
 	prev1 = 0;
 	prev2 = 1;
@@ -17,9 +17,9 @@ int main(void)
 	{
 		next = prev1 + prev2;
 		if (i == 49)
-			printf("%d", next);
+			printf("%lu", next);
 		else
-			printf("%d, ", next);
+			printf("%lu, ", next);
 		prev1 = prev2;
 		prev2 = next;
 	}
