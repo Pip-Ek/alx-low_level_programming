@@ -3,7 +3,7 @@
  * main - Adds even number fibonacci
  * that is less than 4,000,000
  *
- * Return - Always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
