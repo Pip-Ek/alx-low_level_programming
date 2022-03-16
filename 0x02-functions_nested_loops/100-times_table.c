@@ -18,7 +18,8 @@ void print_times_table(int n)
 			a = mul / 100;
 			b = (mul / 10) % 10;
 			c = mul % 10;
-
+			_putchar(',');
+			_putchar(' ');
 			if (mul <= 9)
 			{
 				_putchar(' ');
