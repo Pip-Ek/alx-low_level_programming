@@ -9,16 +9,16 @@ void jack_bauer(void)
 {
 	int a, b, c, d;
 
-	for (a = 48; a <= 50; a++)
+	for (a = '0'; a <= '2'; a++)
 	{
-		for (b = 48; b <= 57; b++)
+		for (b = '0'; b <= '9'; b++)
 		{
-			for (c = 48; d <= 53; c++)
+			if (i == '2' && j == '4')
+				break;
+			for (c = '0'; d <= '5'; c++)
 			{
-				for (d = 48; d <= 57; d++)
+				for (d = '0'; d <= '9'; d++)
 				{
-					if (a >= 50 && b >= 52)
-						break;
 					_putchar(a);
 					_putchar(b);
 					_putchar(58);
