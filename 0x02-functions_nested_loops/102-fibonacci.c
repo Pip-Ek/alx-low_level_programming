@@ -2,8 +2,7 @@
 /**
  *main - Entry point
  *
- *Description: Prints first 50 
- *fibonacci numbers
+ *Description: Prints first 50 fibos
  *Return: Always 0.
  */
 int main(void)
