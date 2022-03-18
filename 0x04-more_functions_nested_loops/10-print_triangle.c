@@ -14,7 +14,7 @@ void print_traingle(int size)
 	{
 		for (j = 1; j < (size - 1); j++)
 		{
-			_putchar(' ');
+			_putchar(32);
 		}
 		for (j-- ; j < size; j++)
 			_putchar(35);
