@@ -6,7 +6,7 @@
  * @size: Size of the triangle
  * Return: no return.
  */
-void print_traingle(int size)
+void print_triangle(int size)
 {
 	int i, j;
 
