@@ -13,7 +13,7 @@ void print_traingle(int size)
 	for (i = 0; i < size; i++)
 	{
 		for (j = 1; j < (size - i); j++)
-			_putchar(' ');
+			_putchar(32);
 		for (j--; j < size; j++)
 			_putchar(35);
 		if (i < (size - 1))
