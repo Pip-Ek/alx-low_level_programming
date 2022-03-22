@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * swap_int: function that swaps two integer values.
+ * swap_int: swaps the values of two integers.
  * @a: first integer.
  * @b: second integer.
  * Return: no return.
