@@ -5,7 +5,6 @@
  * @dest: destination.
  * @src: source.
  * Return: the pointer of dest.
- *
  */
 char *_strcat(char *dest, char *src)
 {
@@ -13,7 +12,9 @@ char *_strcat(char *dest, char *src)
 	int count2 = 0;
 
 	while (*(dest + count) != '\0')
-		count1++;
+	{
+		count++;
+	}
 
 	while (count2 >= 0)
 	{
