@@ -1,6 +1,5 @@
 /**
- * cap_string - a function that 
- * capitalizes all words of a string.
+ * cap_string - capitalizes words of a string.
  * @s: string to be capitalized
  * Return: address of s
  */
