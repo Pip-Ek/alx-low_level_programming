@@ -1,14 +1,14 @@
 /**
- * _strcmp - a function that compares two strings.
+ * _strcmp - compares two strings.
  * @s1: First string.
  * @s2: Second string
- * Return: -1, 0 or 1 if s1 is less, equal of greater
- * than s2 respectively.
+ * Return: 0 uif s1 and s2 are equal,
+ * another number if not.
  */
 
 int _strcmp(char *s1, char *s2)
 {
-	int i, diff;
+	int i = 0, diff = 0;
 
 	while (diff == 0)
 	{
