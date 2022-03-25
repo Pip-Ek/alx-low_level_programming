@@ -5,13 +5,13 @@
  */
 char *string_toupper(char *s)
 {
-	int i, const;
+	int i, c;
 
-	const = 'A' - 'a';
-	for (i = 0; s[i] != '\0'; i++)
+	c = 'A' - 'a';
+	for (i = 0; s[i]; i++)
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
-			s[i] += const;
+			s[i] += c;
 	}
 	return (s);
 }
