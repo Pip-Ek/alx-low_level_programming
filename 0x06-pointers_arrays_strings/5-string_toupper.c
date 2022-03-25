@@ -8,7 +8,7 @@ char *string_toupper(char *s)
 	int i, const;
 
 	const = 'A' - 'a';
-	for (i = 0; s[i]; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
 			s[i] += const;
