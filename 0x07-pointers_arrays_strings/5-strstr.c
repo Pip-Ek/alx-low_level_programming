@@ -1,6 +1,6 @@
 #include <stddef.h>
 /**
- * _strstr - a function that locates a substring.
+ * _strstr - finds first occurence of a substring.
  * @haystack: string to search
  * @needle: string to search for
  * Return: Pointer to first occurence or NULL
